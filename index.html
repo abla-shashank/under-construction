@@ -16,6 +16,12 @@
         place-items: center;
         text-align: center;
       }
+      main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+      }
       h1 {
         font-size: 2rem;
         margin-bottom: 0.5em;
@@ -31,13 +37,36 @@
       .tagline i {
         font-style: italic;
       }
+      .social {
+        margin-top: 1.5rem;
+      }
+      .social a {
+        display: inline-block;
+        width: 28px;
+        height: 28px;
+        color: white;
+      }
+      .social svg {
+        width: 100%;
+        height: 100%;
+        fill: currentColor;
+      }
     </style>
   </head>
   <body>
     <main>
-      <h1>AbleH</h1>
-      <div class="tagline">
-        What the <b>फक</b> is <i>ableh?</i>
+      <div>
+        <h1>AbleH</h1>
+        <div class="tagline">
+          What the <b>फक</b> is <i>ableh?</i>
+        </div>
+      </div>
+      <div class="social">
+        <a href="https://instagram.com/ableh.in" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2.1 2 .2 2.5.4a4.6 4.6 0 0 1 1.6 1.1c.5.5.8 1 .9 1.6.2.5.3 1.3.4 2.5.1 1.2.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 1.2-.2 2-.4 2.5a4.6 4.6 0 0 1-1.1 1.6c-.5.5-1 .8-1.6.9-.5.2-1.3.3-2.5.4-1.2.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2-.1-2-.2-2.5-.4a4.6 4.6 0 0 1-1.6-1.1 4.6 4.6 0 0 1-1.1-1.6c-.2-.5-.3-1.3-.4-2.5C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8c.1-1.2.2-2 .4-2.5.2-.6.5-1.1.9-1.6.5-.5 1-.8 1.6-.9.5-.2 1.3-.3 2.5-.4C8.4 2.2 8.8 2.2 12 2.2zm0-2.2C8.7 0 8.3 0 7 .1 5.6.2 4.6.4 3.7.7a6.7 6.7 0 0 0-2.5 1.6A6.7 6.7 0 0 0 .7 4.8c-.3.9-.5 1.9-.6 3.3C0 8.3 0 8.7 0 12c0 3.3 0 3.7.1 5 .1 1.4.3 2.4.6 3.3a6.7 6.7 0 0 0 1.6 2.5 6.7 6.7 0 0 0 2.5 1.6c.9.3 1.9.5 3.3.6 1.3.1 1.7.1 5 .1s3.7 0 5-.1c1.4-.1 2.4-.3 3.3-.6a6.7 6.7 0 0 0 2.5-1.6 6.7 6.7 0 0 0 1.6-2.5c.3-.9.5-1.9.6-3.3.1-1.3.1-1.7.1-5s0-3.7-.1-5c-.1-1.4-.3-2.4-.6-3.3a6.7 6.7 0 0 0-1.6-2.5 6.7 6.7 0 0 0-2.5-1.6c-.9-.3-1.9-.5-3.3-.6C15.7 0 15.3 0 12 0zM12 5.8a6.2 6.2 0 1 0 0 12.4 6.2 6.2 0 0 0 0-12.4zm0 10.3a4.1 4.1 0 1 1 0-8.2 4.1 4.1 0 0 1 0 8.2zm6.4-10.6a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+          </svg>
+        </a>
       </div>
     </main>
   </body>
